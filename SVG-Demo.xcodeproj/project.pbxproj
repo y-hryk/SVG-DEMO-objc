@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		355A917AEC816412668A22E4 /* libPods-SVG-DemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C0B994051FF0DED49DA18F /* libPods-SVG-DemoTests.a */; };
 		5BA883361F72BE9700FDC54D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA883351F72BE9700FDC54D /* main.m */; };
 		5BA883391F72BE9700FDC54D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA883381F72BE9700FDC54D /* AppDelegate.m */; };
 		5BA8833C1F72BE9700FDC54D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8833B1F72BE9700FDC54D /* ViewController.m */; };
@@ -14,6 +15,10 @@
 		5BA883411F72BE9700FDC54D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA883401F72BE9700FDC54D /* Assets.xcassets */; };
 		5BA883441F72BE9700FDC54D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA883421F72BE9700FDC54D /* LaunchScreen.storyboard */; };
 		5BA8834F1F72BE9700FDC54D /* SVG_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8834E1F72BE9700FDC54D /* SVG_DemoTests.m */; };
+		5BA8835B1F72C8E900FDC54D /* niwatori.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5BA883591F72C8E900FDC54D /* niwatori.svg */; };
+		5BA8835C1F72C8E900FDC54D /* buta.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8835A1F72C8E900FDC54D /* buta.svg */; };
+		5BC834361F72CDDC00E92B2E /* buta_s.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5BC834351F72CDDC00E92B2E /* buta_s.svg */; };
+		D67223D5D0CCD6CDEDB25238 /* libPods-SVG-Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD62EE405CDFA3983869771 /* libPods-SVG-Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D83C59B01CC77B56239C8D3 /* Pods-SVG-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVG-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVG-DemoTests/Pods-SVG-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BA883311F72BE9700FDC54D /* SVG-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SVG-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA883351F72BE9700FDC54D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BA883371F72BE9700FDC54D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +46,14 @@
 		5BA8834A1F72BE9700FDC54D /* SVG-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SVG-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA8834E1F72BE9700FDC54D /* SVG_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVG_DemoTests.m; sourceTree = "<group>"; };
 		5BA883501F72BE9700FDC54D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA883591F72C8E900FDC54D /* niwatori.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = niwatori.svg; path = "../../../../Desktop/SVG-Demo/SVG-Demo/niwatori.svg"; sourceTree = "<group>"; };
+		5BA8835A1F72C8E900FDC54D /* buta.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = buta.svg; path = "../../../../Desktop/SVG-Demo/SVG-Demo/buta.svg"; sourceTree = "<group>"; };
+		5BC834351F72CDDC00E92B2E /* buta_s.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = buta_s.svg; path = "../../../../Desktop/SVG-Demo/SVG-Demo/buta_s.svg"; sourceTree = "<group>"; };
+		5DC3878D4DAD2DA9F4D58C70 /* Pods-SVG-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVG-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVG-Demo/Pods-SVG-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		6FD62EE405CDFA3983869771 /* libPods-SVG-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVG-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		719FF1FDEB4E3B172C37C1DC /* Pods-SVG-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVG-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVG-Demo/Pods-SVG-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C0B994051FF0DED49DA18F /* libPods-SVG-DemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVG-DemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F027F32807690D442279CA /* Pods-SVG-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVG-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVG-DemoTests/Pods-SVG-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67223D5D0CCD6CDEDB25238 /* libPods-SVG-Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355A917AEC816412668A22E4 /* libPods-SVG-DemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +82,8 @@
 				5BA883331F72BE9700FDC54D /* SVG-Demo */,
 				5BA8834D1F72BE9700FDC54D /* SVG-DemoTests */,
 				5BA883321F72BE9700FDC54D /* Products */,
+				610DDEAF24CF217F964495CC /* Pods */,
+				D6311E824683A95E04DF08E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +99,9 @@
 		5BA883331F72BE9700FDC54D /* SVG-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				5BA883591F72C8E900FDC54D /* niwatori.svg */,
+				5BA8835A1F72C8E900FDC54D /* buta.svg */,
+				5BC834351F72CDDC00E92B2E /* buta_s.svg */,
 				5BA883371F72BE9700FDC54D /* AppDelegate.h */,
 				5BA883381F72BE9700FDC54D /* AppDelegate.m */,
 				5BA8833A1F72BE9700FDC54D /* ViewController.h */,
@@ -111,6 +132,26 @@
 			path = "SVG-DemoTests";
 			sourceTree = "<group>";
 		};
+		610DDEAF24CF217F964495CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				719FF1FDEB4E3B172C37C1DC /* Pods-SVG-Demo.debug.xcconfig */,
+				5DC3878D4DAD2DA9F4D58C70 /* Pods-SVG-Demo.release.xcconfig */,
+				1D83C59B01CC77B56239C8D3 /* Pods-SVG-DemoTests.debug.xcconfig */,
+				E4F027F32807690D442279CA /* Pods-SVG-DemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6311E824683A95E04DF08E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FD62EE405CDFA3983869771 /* libPods-SVG-Demo.a */,
+				B0C0B994051FF0DED49DA18F /* libPods-SVG-DemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA883531F72BE9700FDC54D /* Build configuration list for PBXNativeTarget "SVG-Demo" */;
 			buildPhases = (
+				9FF978C26FEED1335964912C /* [CP] Check Pods Manifest.lock */,
 				5BA8832D1F72BE9700FDC54D /* Sources */,
 				5BA8832E1F72BE9700FDC54D /* Frameworks */,
 				5BA8832F1F72BE9700FDC54D /* Resources */,
+				A2490AFB11A5F33444E8C668 /* [CP] Embed Pods Frameworks */,
+				3E6FB71FD88FE42A2BC6B3CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA883561F72BE9700FDC54D /* Build configuration list for PBXNativeTarget "SVG-DemoTests" */;
 			buildPhases = (
+				88DC0199D58301B0E243D0CA /* [CP] Check Pods Manifest.lock */,
 				5BA883461F72BE9700FDC54D /* Sources */,
 				5BA883471F72BE9700FDC54D /* Frameworks */,
 				5BA883481F72BE9700FDC54D /* Resources */,
+				1629646CD6EA11BA96F01609 /* [CP] Embed Pods Frameworks */,
+				12B2E600ED5BE122E91CB5AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC834361F72CDDC00E92B2E /* buta_s.svg in Resources */,
+				5BA8835C1F72C8E900FDC54D /* buta.svg in Resources */,
 				5BA883441F72BE9700FDC54D /* LaunchScreen.storyboard in Resources */,
 				5BA883411F72BE9700FDC54D /* Assets.xcassets in Resources */,
+				5BA8835B1F72C8E900FDC54D /* niwatori.svg in Resources */,
 				5BA8833F1F72BE9700FDC54D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +258,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B2E600ED5BE122E91CB5AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVG-DemoTests/Pods-SVG-DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1629646CD6EA11BA96F01609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVG-DemoTests/Pods-SVG-DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6FB71FD88FE42A2BC6B3CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVG-Demo/Pods-SVG-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88DC0199D58301B0E243D0CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVG-DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF978C26FEED1335964912C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVG-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2490AFB11A5F33444E8C668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVG-Demo/Pods-SVG-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BA8832D1F72BE9700FDC54D /* Sources */ = {
@@ -350,6 +499,7 @@
 		};
 		5BA883541F72BE9700FDC54D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719FF1FDEB4E3B172C37C1DC /* Pods-SVG-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 853S365UM8;
@@ -362,6 +512,7 @@
 		};
 		5BA883551F72BE9700FDC54D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC3878D4DAD2DA9F4D58C70 /* Pods-SVG-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 853S365UM8;
@@ -374,6 +525,7 @@
 		};
 		5BA883571F72BE9700FDC54D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D83C59B01CC77B56239C8D3 /* Pods-SVG-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "SVG-DemoTests/Info.plist";
@@ -386,6 +538,7 @@
 		};
 		5BA883581F72BE9700FDC54D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F027F32807690D442279CA /* Pods-SVG-DemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "SVG-DemoTests/Info.plist";

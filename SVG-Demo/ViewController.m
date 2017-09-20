@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <SVGKit.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView1_s;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView1_m;
+@property (weak, nonatomic) IBOutlet UIImageView *imageVIew1_l;
 
 @end
 
@@ -17,6 +21,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    SVGKImage *image = [SVGKImage imageNamed:@"buta_s"];
+    image.size = _imageView1_s.frame.size;
+    _imageView1_s.image = [image UIImage];
+    
+    image.size = _imageView1_m.frame.size;
+    _imageView1_m.image = [image UIImage];
+
+    image.size = _imageVIew1_l.frame.size;
+    _imageVIew1_l.image = [image UIImage];
 }
 
 
